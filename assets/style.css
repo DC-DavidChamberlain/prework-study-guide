@@ -11,9 +11,15 @@ footer {
     color: white;
 }
 
+ body {
+    background-color: rgba(188, 204, 241, 0.882);
+    
+   }
+
 h1,
 h2 {
     text-align: center;
+    color: #DD0A03;
 }
 
 img {
@@ -27,6 +33,7 @@ img {
 ul {
     padding-left: 40px;
     font-size: 20px;
+    color: #DD0A03;
 }
 
 p {
