@@ -27,11 +27,11 @@
             <li>Meta-related elements</li>
             <li>Content division elements</li>
             <li>Semantic elements</li></ul></li>
-          <li>HTML elements work together to build the structure of a webpage and provide a framework that makes it easy for a user to navigate the webpage</li>
-          <li>HTML builds the sturdy "frame" of the webpage that everything else is built on top of</li>
-          <li>The head element contains information, or metadata, that helps the browser to render the page correctly</li>
-          <li>Elements included within the head element are not visible when a user looks at a webpage</li>
-          <li>The body element represents the visible content shown to the user</li>
+          <li>HTML elements work together to build the structure of a webpage and provide a framework that makes it easy for a user to navigate the webpage.</li>
+          <li>HTML builds the sturdy "frame" of the webpage that everything else is built on top of.</li>
+          <li>The head element contains information, or metadata, that helps the browser to render the page correctly.</li>
+          <li>Elements included within the head element are not visible when a user looks at a webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
           <li>Some common metadata tags are: <ul>
             <li>title</li>
             <li>style</li>
@@ -39,17 +39,28 @@
             <li>link</li>
             <li>meta</li>
             <li>script</li></ul></li>
-          <li>The charset element sets our character encoding</li>
-          <li>The http-equiv element sets an HTTP header for content</li>
-          <li>The viewport element sets the defalut view for a webpage</li>
+          <li>The charset element sets our character encoding.</li>
+          <li>The http-equiv element sets an HTTP header for content.</li>
+          <li>The viewport element sets the defalut view for a webpage.</li>
         </ul>
       </section>
       
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>A margin indicates how much space we want around the outside of an element</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>There are three ways to style a webpage with CSS: inline, internal, and external.</li>
+          <li>Inline CSS is used when a developer wants to style an element in the HTML file. They're useful for quick and permanent changes but are less flexible than external or internal style sheets, because each inline style must be edited individually whenever you want to make a change.</li>
+          <li>Internal CSS is used to embed an entire style sheet in the HTML file using a style elemenent inside the head element.</li>
+          <li>External CSS is the most commonly used because it allows developers to keep all their CSS rules in a separate file, making design easier.</li>
+          <li>When using an external style sheet, you link the file using a link element placed in the HTML's head element.</li>
+          <li>A CSS rule is broken up into a selector, and a declaration block inside of two curly brackets, for example: div {color: blue; text-align: justify;}</li>
+          <li>A selector defines the element or attributes to which the rules or declarations apply.</li>
+          <li>A declaration contains two components: the CSS property we want to apply and the value of the property.</li>
+          <li>The declaration property is followed by a colon and then the value of the property is followed by a semicolon. For example: color: blue;</li>
+          <li>Two or more elements that will share the same styling can be grouped together, which cleans up our code with less repetition.</li>
+          <li>Assigning colors in CSS can be done in many ways, including semantic references like gray or blue but you can also refer to a colors hecadecimal code or hex #.</li>
         </ul>
       </section>
 
@@ -60,6 +71,24 @@
           <li>git checkout -b branch name: creates a new branch and switches to it</li>
           <li>Here's a link to a cheat sheet of git commands: https://education.github.com/git-cheat-sheet-education.pdf</li>
           <li>Use Markdown language to add issues to a GitHub repository</li>
+          <li>CLI Commands:
+            <li>ls - list of all files and folders in the current working directory</li>
+            <li>cd - change directories, for example: "cd Downloads"</li>
+            <li>pwd - print working directory, will show the name of the current directory</li>
+            <li>cd .. - allws us to navigate backwards one directory at a time</li>
+            <li>mkdir - make directory, for example: mkdir Prework</li>
+            <li>code. - opens our code editor program</li></li>
+          <li>An SHA, or hash, is assigned every time we save a version of our work using version control. This allows us to keep a record of specific changes committed. The unique identifier gives us a reference to that specific version of code so it can be retrieved as needed.</li>
+          <li>A branch is a copy or version of the code that can be worked on independently in isolation so that changes don't disrupt other team members who are also working on the code.</li>
+          <li>A new branch adding something to the project is called a feature branch.</li>
+          <li>In the feature branch, changes are made to the code that will be committed. Commit messages are then added to describe what changed in the code.</li>
+          <li>Then the changed branch is pushed to our GitHub repository.</li>
+          <li>Then a pull request, or PR, is used to merge the changed branch into the main branch.</li>
+          <li>When working with others, the PR would be checked and then approved or denied.</li>
+          <li>git add -A - this command adds all modifications in the current working branch to the staging area</li>
+          <li>git commit -m "message text here" - this command adds a message that describes what the commit contains</li>
+          <li>git pull origin maing - this command pulls down any changes from the main branch to our current working branch</li>
+          <li>git push origin feature/your-text-here - this command pushes the changes we have locally to our remote GitHub branch</li>
         </ul>
       </section>
 
@@ -68,6 +97,11 @@
         <ul>
           <li>A variable is a named container that allows us to store data in our code.</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>The variable keyworkd "const" allows us to create variables that can't be reassigned a value. Once a variable is defined using const it is essentially "locked down".</li>
+          <li>console.log method outputs a message to the web console by adding an argument. For example: console.log(topics);</li>
+          <li>An array is a single variable used to hold a group of data that is typically related in some way.</li>
+          <li>Arrays are not limited to contain only one type of data. A single array can store strings, numbers, booleans, and so on.</li>
+          <li>You access data inside an array by knowing its location or index. Indices in JavaScript are zero-indexed and sequential. Meaning they always start at 0 and then 1 then 2 and so on.</li>
         </ul>
       </section>
     </main>
