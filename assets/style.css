@@ -17,15 +17,17 @@ footer {
    }
 
 h1,
-h2 {
+h2,
+h3, {
     text-align: center;
 }
 
-h1 {
+h1,
+h2 {
     color: white;
 }
 
-h2 {
+h3 {
     color: #DD0A03;
 }
 
